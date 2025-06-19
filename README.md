@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>請點擊以下按鈕以安裝 App 到您的 iPad。</title>
+</head>
 <body>
-  <h1>請點擊以下按鈕以安裝 App 到您的 iPhone 或 iPad。</h1>
-  <a href="itms-services://?action=download-manifest&url=https://yourdomain.com/app/tawd_ivm.plist">
-    <button>安裝 App</button>
-  </a>
-  <p class="note">安裝後，請至「設定 → 一般 → 裝置管理」中信任開發者簽章，方可開啟。</p>
+<h1>下載您的應用</h1>
+    <p>點擊下面的鏈接以下載應用:</p>
+    <a href="https://your-netlify-url/tawd_jvm.ipa" download>下載應用</a>
+    <br>
+    <a href="https://your-netlify-url/distributionsummary.plist">安裝鏈接</a>
 </body>
 </html>
